@@ -1,0 +1,82 @@
+.layout{
+  background: #40B0DF;
+}
+.navbar ul li a {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-brand h1 {
+  color: #FFD53D;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.navbar-brand span {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.fa-bars {
+  color: #880E4F;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.button {
+  background: none;
+}
+
+.nav-item:hover {
+  border-radius: 4px;
+  background-color: #ffffff;
+  color:  #40B0DF;
+}
+
+.menu ul li a {
+  color: #fffefe;
+}
+
+.menu ul li a span {
+  position: absolute;
+  letter-spacing: 3px;
+  transform: translate(-65px);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.menu ul li:hover a span {
+  transition: all 0.5s ease;
+  opacity: 1;
+  pointer-events: visible;
+  font-size: 1rem;
+}
+
+.navbar-collapse ul li a:hover {
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  background-color: #fffefe;
+  color:  #40B0DF;
+}
+
+.active {
+  background: #ececec;
+}
